@@ -350,6 +350,11 @@ body {
 	color: #F37321;
 }
 
+.tabs-content {
+	display: flex;
+	justify-content: space-between;
+}
+
 .tabs-card {
 	max-width: 270px;
 	border-radius: 20px;
@@ -420,6 +425,41 @@ body {
 	margin-top: 60px;
 	width: 315px;
 	cursor: pointer;
+}
+
+.advantages {
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+.advantages-cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.advantages-card {
+	width: calc(25% - 18px);
+	max-width: 270px;
+	padding: 30px 23px 0;
+	text-align: center;
+	border: 1px solid #e9e9e9;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+}
+
+.advantages-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 23px;
+	margin-bottom: 13px;
+}
+
+.advantages-text {
+	font-size: 14px;
+	line-height: 22px;
+	color: #49494f;
+	text-align: center;
 }
 
 .footer {
